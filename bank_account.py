@@ -1,4 +1,4 @@
-#  SOURCE VIDEO:# https://www.youtube.com/watch?v=PMFd95RgIwE&t=3s
+#  SOURCE VIDeo# https://www.youtube.com/watch?v=PMFd95RgIwE&t=3s
 class BankException(Exception):
     pass
 
@@ -43,7 +43,6 @@ class BankAccount:
     def transfer(self,amount,account):
         try:
             print("\n **************** \n \n Beginning Transfer .... ")  
-            self.viableTrasction(amount)
             self.viableTrasction(amount)
             self.withdraw(amount)
             account.getDeposit(amount)
